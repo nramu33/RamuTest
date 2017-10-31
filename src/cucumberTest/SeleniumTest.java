@@ -11,7 +11,7 @@ public class SeleniumTest {
 		public static String driverPath = System.getProperty("user.dir");
         
 	public static void main(String[] args) {
-		// Create a new instance of the Firefox driver
+		// Create a new instance of the chrome driver
 		System.out.println("Current dir using System:" +driverPath);
 		System.setProperty("webdriver.chrome.driver", driverPath+"\\chromedriver.exe");
         driver = new ChromeDriver();
